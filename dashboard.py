@@ -7,7 +7,7 @@ from watchdog.events import FileSystemEventHandler
 from datetime import datetime, timedelta
 
 # ------------------ Excel File Path ------------------
-EXCEL_FILE = '/Users/mac/Downloads/plugin_tkinter 1/Daily_Metric_Tracking_Sheet (1).xlsx'  # Path to your Excel file
+EXCEL_FILE = 'Daily_Metric_Tracking_Sheet (1).xlsx'  # Path to your Excel file
 
 # ------------------ Watchdog for Auto-Reload ------------------
 class ExcelFileHandler(FileSystemEventHandler):
